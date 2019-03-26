@@ -1,0 +1,4 @@
+#Fri Mar 22 12:10:09 IST 2019
+base.0=/Users/logesh/AndroidStudioProjects/Database/app/build/intermediates/dex/debug/mergeDexDebug/out
+path.0=classes.dex
+renamed.0=classes.dex

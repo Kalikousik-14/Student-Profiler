@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_layout"
+    android:background="@color/grey_100"
+    android:orientation="vertical"
+    android:weightSum="4">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="0dp"
+    android:id="@+id/second_layout"
+    android:layout_weight="2"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/grey_300">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logo"
+        android:src="@drawable/logo_wide" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:id="@+id/name"
+        android:layout_weight="0.5"
+
+        android:textSize="20sp"
+        android:text="@string/name"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:id="@+id/section"
+
+        android:text="@string/section"
+        android:layout_below="@id/name"
+        android:textSize="20sp"
+        android:layout_weight=".5"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:id="@+id/id"
+        android:layout_weight=".5"
+        android:textSize="20sp"
+        android:text="@string/id"
+       />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:id="@+id/attendence"
+        android:text="@string/attendence"
+
+        android:layout_weight=".5"
+        android:textSize="20sp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.MyDarkButton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="modify"
+        android:onClick="upload"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:id="@+id/picture"
+        android:layout_weight="2">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:id="@+id/logi"
+            android:src="@drawable/logi"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

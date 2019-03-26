@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectSub">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/t1"
+        android:layout_width="341dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="232dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardCornerRadius="30dp"
+        app:cardPreventCornerOverlap="false"
+        android:background="@color/buttoncolor"
+        app:cardUseCompatPadding="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/s1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="MC"
+            android:textAlignment="center"
+            android:onClick="click"
+            android:textSize="36sp"
+            android:textStyle="italic" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/t2"
+        android:layout_width="341dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="128dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardCornerRadius="30dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="false"
+        android:background="@color/buttoncolor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/s2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="DWDM"
+            android:textAlignment="center"
+            android:textSize="36sp"
+            android:textStyle="italic" />
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/t3"
+        android:layout_width="341dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="44dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardCornerRadius="30dp"
+        app:cardPreventCornerOverlap="false"
+        android:background="@color/buttoncolor"
+        app:cardUseCompatPadding="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/s3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="CD"
+            android:textAlignment="center"
+            android:textSize="36sp"
+            android:textStyle="italic" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/t4"
+        android:layout_width="341dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="508dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardCornerRadius="30dp"
+        app:cardPreventCornerOverlap="false"
+        android:background="@color/buttoncolor"
+        app:cardUseCompatPadding="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/s4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="AI"
+            android:textAlignment="center"
+            android:textSize="36sp"
+            android:textStyle="italic" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/t5"
+        android:layout_width="341dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="38dp"
+        android:background="@color/buttoncolor"
+        android:layout_marginTop="416dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardCornerRadius="30dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/s5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="DS"
+            android:textAlignment="center"
+            android:textSize="36sp"
+            android:textStyle="italic" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/t6"
+        android:layout_width="341dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="38dp"
+        android:background="@color/buttoncolor"
+        android:layout_marginTop="320dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardCornerRadius="30dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/s6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="DSP"
+            android:textAlignment="center"
+            android:textSize="36sp"
+            android:textStyle="italic" />
+    </android.support.v7.widget.CardView>
+
+
+
+</android.support.constraint.ConstraintLayout>

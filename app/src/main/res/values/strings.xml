@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Database</string>
+    <string name="desc_firebase_lockup">Firebase logo and name</string>
+    <string name="emailpassword_title_text">Student Login</string>
+    <string name="signed_out">sign out</string>
+    <string name="hintEmail">email</string>
+    <string name="hintPassword">password</string>
+    <string name="sign_in">sign in</string>
+    <string name="sign_out">sign out</string>
+    <string name="create_account">create account</string>
+    <string name="verify_email">verify</string>
+    <string name="loading">loading</string>
+    <string name="auth_failed">auth failed</string>
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+    <string name="emailpassword_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="name">Name: Logeshwaran</string>
+    <string name="section">batch: C</string>
+    <string name="id">id: 16cs101</string>
+    <string name="attendence">Attendence: 83.4%</string>
+</resources>
